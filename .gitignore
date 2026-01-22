@@ -1,0 +1,15 @@
+# ignore dataset
+dataset/WikiTopicsQE_NLG/
+dataset/WikiTopicsQE_decoded
+
+# ignore builded graphs
+expr/
+kg/
+
+# ignore config files
+config.json
+
+# ignore results
+results/
+
+.vscode/
