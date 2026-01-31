@@ -7,6 +7,8 @@ The code is based on [HyperGraphRAG](https://github.com/LHRLAB/HyperGraphRAG.git
 The dataset we used
 [WikiTopics](https://reltrans.s3.us-east-2.amazonaws.com/WikiTopics_QE.zip)
 
+## License
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ## Bibtex
 ```bibtex
