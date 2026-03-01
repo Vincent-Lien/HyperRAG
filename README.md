@@ -15,7 +15,12 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 @inproceedings{lien2026hyperrag
     title={HyperRAG: Reasoning N-ary Facts over Hypergraphs for Retrieval Augmented Generation},
     author={Wen-Sheng Lien, Yu-Kai Chan, Hao-Lung Hsiao, Bo-Kai Ruan, Meng-Fen Chiang, Chien-An Chen, Yi-Ren Yeh and Hong-Han Shuai},
-    booktitle={The ACM Web Conference (WWW)},
+    booktitle={The Web Conference (WWW)},
     year={2026}
 }
 ```
+
+## TODO
+- [ ] Paper Link
+- [ ] Installation Instructions
+- [ ] Integrate token counter function into modules
