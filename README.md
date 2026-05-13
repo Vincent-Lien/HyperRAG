@@ -238,8 +238,8 @@ python evaluate/qa_eval_EM_F1.py --model_name {OUTPUT_FOLDER} {DATASET}
 
 | Dataset Type | Metric | Script |
 |---|---|---|
-| Closed domain (WikiTopics) | MRR, Hit Rate | `qa_eval_MRR_HIT.py` |
-| Open domain (2Wiki, HotpotQA, MuSiQue) | Exact Match, F1 | `qa_eval_EM_F1.py` |
+| Closed domain (WikiTopics) | MRR, Hit Rate | [`qa_eval_MRR_HIT.py`](evaluate/qa_eval_MRR_HIT.py) |
+| Open domain (2Wiki, HotpotQA, MuSiQue) | Exact Match, F1 | [`qa_eval_EM_F1.py`](evaluate/qa_eval_EM_F1.py) |
 
 ---
 
@@ -266,6 +266,6 @@ If you use HyperRAG in your research, please cite:
 
 ## TODO
 
-- [v] arXiv Paper link
-- [v] Installation Instructions
+- [x] arXiv Paper link
+- [x] Installation Instructions
 - [ ] Integrate token counter function into modules
