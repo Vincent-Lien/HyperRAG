@@ -9,7 +9,7 @@ import argparse
 if os.environ.get("OPENAI_API_KEY") is None:
     with open("../config.json", "r") as f:
         config = json.load(f)
-        os.environ["OPENAI_API_KEY"] = config.get("hypermemory_api_key", "your_openai_api_key_here")
+        os.environ["OPENAI_API_KEY"] = config.get("openai_api_key")
 
 parser = argparse.ArgumentParser(description="Run Hypergraph on WikiTopics queries")
 parser.add_argument("domain", type=str, choices=['art', 'award', 'edu', 'health', 'infra', 'loc', 'org', 'people', 'sci', 'sport', 'tax'],

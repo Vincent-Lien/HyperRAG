@@ -10,7 +10,7 @@ import time
 if os.environ.get("OPENAI_API_KEY") is None:
     with open("../config_mine.json", "r") as f:
         config = json.load(f)
-        os.environ["OPENAI_API_KEY"] = config["hypermemory_api_key"]
+        os.environ["OPENAI_API_KEY"] = config["openai_api_key"]
 
 parser = argparse.ArgumentParser(description="Run HyperMemory on WikiTopics queries")
 parser.add_argument("--domain", type=str, help="Domain to process (e.g. art, sci, etc.)")

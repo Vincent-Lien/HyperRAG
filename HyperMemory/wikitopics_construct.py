@@ -9,7 +9,7 @@ from hypergraphrag import HyperGraphRAG
 if os.environ.get("OPENAI_API_KEY") is None:
     with open("../config.json", "r") as f:
         config = json.load(f)
-        os.environ["OPENAI_API_KEY"] = config.get("hypermemory_api_key", "your_openai_api_key_here")
+        os.environ["OPENAI_API_KEY"] = config.get("openai_api_key")
 
 # Parse command line arguments
 parser = argparse.ArgumentParser(description="Construct Hypergraph for WikiTopics.")

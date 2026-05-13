@@ -9,7 +9,7 @@ from hypergraphrag import HyperGraphRAG
 if os.environ.get("OPENAI_API_KEY") is None:
     with open("../config.json", "r") as f:
         config = json.load(f)
-        os.environ["OPENAI_API_KEY"] = config["hyperretriever_api_key"]
+        os.environ["OPENAI_API_KEY"] = config["openai_api_key"]
 
 parser = argparse.ArgumentParser(description="Run HyperRetriever on WikiTopics queries")
 parser.add_argument("domain", type=str, choices=["2wikimultihopqa", "hotpotqa", "musique"], 
