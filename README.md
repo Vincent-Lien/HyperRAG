@@ -255,10 +255,11 @@ If you use HyperRAG in your research, please cite:
 
 ```bibtex
 @inproceedings{lien2026hyperrag,
-    title={HyperRAG: Reasoning N-ary Facts over Hypergraphs for Retrieval Augmented Generation},
-    author={Wen-Sheng Lien, Yu-Kai Chan, Hao-Lung Hsiao, Bo-Kai Ruan, Meng-Fen Chiang, Chien-An Chen, Yi-Ren Yeh and Hong-Han Shuai},
-    booktitle={The Web Conference (WWW)},
-    year={2026}
+  title={HyperRAG: Reasoning N-ary Facts over Hypergraphs for Retrieval Augmented Generation},
+  author={Lien, Wen-Sheng and Chan, Yu-Kai and Hsiao, Hao-Lung and Ruan, Bo-Kai and Chiang, Meng-Fen and Chen, Chien-An and Yeh, Yi-Ren and Shuai, Hong-Han},
+  booktitle={Proceedings of the ACM Web Conference 2026},
+  pages={2465--2476},
+  year={2026}
 }
 ```
 
